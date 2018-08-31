@@ -27,7 +27,7 @@ int CalculateCurrentOrders(string symbol)
       if(OrderSymbol()==Symbol() && OrderMagicNumber()==MAGICMA)
         {
          if(OrderType()==OP_BUY)  buys++;
-         if(OrderType()==OP_SELL) sells++;
+         if(OrderType()==OP_SELL) sells++;fffffff
         }
      }
 //--- return orders volume
